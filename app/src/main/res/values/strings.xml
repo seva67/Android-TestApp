@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">Test App</string>
+    <string name="ok" translatable="false">Ok</string>
+    <string name="hello" translatable="false">Hello</string>
+    <string name="sign_in" translatable="false">Аутентификация</string>
+    <string name="sign_up" translatable="false">Регистрация</string>
+    <string name="avatar" translatable="false">Выбрать аватар</string>
+    <string name="login" translatable="false">Логин</string>
+    <string name="Password" translatable="false">Пароль</string>
+    <string name="name1" translatable="false">Имя</string>
+    <string name="name2" translatable="false">Отчество</string>
+    <string name="name3" translatable="false">Фамилия</string>
+    <string name="registry" translatable="false">Зарегистрировать</string>
+    <string name="gone" translatable="false">Войти</string>
+    <string name="title_activity_handle">HandleActivity</string>
+</resources>
