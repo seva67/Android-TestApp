@@ -24,32 +24,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.037" />
 
-    <ImageView
-        android:id="@+id/avatarView"
-        android:layout_width="275dp"
-        android:layout_height="277dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.946"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.662"
-        tools:srcCompat="@drawable/pig" />
-
     <Button
         android:id="@+id/avatarBtn"
-        android:layout_width="0dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
+        android:onClick="onClickAvatarBtn"
         android:text="@string/avatar"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/avatarView"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/avatarView"
-        app:layout_constraintTop_toBottomOf="@+id/avatarView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.945" />
 
     <EditText
         android:id="@+id/loginEditText"
@@ -141,10 +128,23 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:onClick="onClickNewUserBtn"
         android:text="@string/registry"
         app:layout_constraintEnd_toEndOf="@+id/loginEditText"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/loginEditText"
         app:layout_constraintTop_toBottomOf="@+id/name3EditText" />
+
+    <ImageView
+        android:id="@+id/avatarView"
+        android:layout_width="0dp"
+        android:layout_height="243dp"
+        android:layout_marginBottom="36dp"
+        android:src="@drawable/pig"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/avatarBtn"
+        app:layout_constraintEnd_toEndOf="@+id/avatarBtn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/avatarBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,6 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestApp">
         <activity
+            android:name=".TestActivity"
+            android:exported="false" />
+        <activity
             android:name=".HandleActivity"
             android:exported="false" />
         <activity
